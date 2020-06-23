@@ -1,0 +1,7 @@
+<div class="project_card">
+        <h3>Project Name</h3>
+        <label><a href="#" target="_blank">Link to Download</a></label>
+        <br>
+        <label></M><a href="#" target="_blank">Link to Source</a></label>
+        <p>description</p>
+      </div>
