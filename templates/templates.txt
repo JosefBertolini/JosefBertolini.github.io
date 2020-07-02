@@ -1,7 +1,11 @@
 <div class="project_card">
-        <h3>Project Name</h3>
-        <label><a href="#" target="_blank">Link to Download</a></label>
-        <br>
-        <label></M><a href="#" target="_blank">Link to Source</a></label>
-        <p>description</p>
-      </div>
+  <h3>Project Name</h3>
+  <div class="project_card_left">
+    <label><a href="#" target="_blank">Link to Download</a></label>
+    <br>
+    <label></M><a href="#" target="_blank">Link to Source</a></label>
+  </div>
+  <div class="project_card_right">
+    <p>description</p>
+  </div>
+</div>
