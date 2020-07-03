@@ -4,6 +4,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+hr {
+    width: 90%;
+}
+
 h1 {
     font-size: 2.5em;
 }
@@ -27,31 +31,36 @@ nav label {
     margin-right: 10px;
 }
 
+
+
+.container {
+    position: relative;
+    margin: auto;
+    width: 90%;
+}
+
+main {
+    position: relative;
+    float: left;
+    width: 69%;
+}
+
 aside {
-    position: fixed;
+    position: absolute;
+    width: 14%;
     right: 0;
-    top: 16.5%;
     float: right;
-    width: 20%;
     margin-right: 2.5%;
 
     border: 2px black solid;
     border-radius: 10px;
     padding: 0px 20px;
-}
 
-.container {
-    width: 90%;
-    margin: auto;
-}
-
-.main_content {
-    float: left;
-    width: 75%;
 }
 
 .site_header {
     text-align: center;
+    width: 100%;
 }
 
 .site_info {
@@ -59,13 +68,16 @@ aside {
     border-radius: 10px;
     padding: 0px 20px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .about_me {
+    position: relative;
     border: 2px black solid;
     border-radius: 10px;
     padding: 0px 20px;
     margin-bottom: 10px;
+    width: 100%;
 
     overflow: hidden;
 }
@@ -74,22 +86,25 @@ aside {
     position: relative;
     float: left;
     width: 15%;
-    text-align: center;
+}
+
+.profile_pic img {
+    max-width: 100%;
 }
 
 .bio {
     position: relative;
     float: right;
-    width: 82.5%;
-    margin: auto;
+    width: 80%;
+    
 }
-
 
 .skills {
     border: 2px black solid;
     border-radius: 10px;
     padding: 0px 20px;
     margin-bottom: 10px;
+    width: 100%;
 
     overflow: hidden;
 }
@@ -97,7 +112,7 @@ aside {
 .languages_list {
     position: relative;
     float: left;
-    width: 40%;
+    width: 50%;
 
     padding-bottom: 10px;
 }
@@ -126,6 +141,7 @@ aside {
     border-radius: 10px;
     padding: 0px 20px;
     margin-bottom: 10px;
+    width: 100%;
 }
 
 .job em {
@@ -136,6 +152,8 @@ aside {
     padding-left: 10px;
 }
 
+
+/*PROJECT PAGE STYLING*/
 
 .project_card {
     border: 2px black solid;
