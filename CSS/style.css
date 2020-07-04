@@ -1,3 +1,8 @@
+html {
+    height: auto !important;
+    padding-bottom: 700px !important;
+}
+
 body {
     background-color: #c0c0c0;
 
@@ -46,16 +51,16 @@ main {
 }
 
 aside {
-    position: absolute;
+    position: fixed;
     width: 14%;
     right: 0;
     float: right;
-    margin-right: 2.5%;
+    margin-right: 5%;
 
     border: 2px black solid;
     border-radius: 10px;
-    padding: 0px 20px;
 
+    text-align: center;
 }
 
 .site_header {
@@ -86,6 +91,8 @@ aside {
     position: relative;
     float: left;
     width: 15%;
+
+    padding-bottom: 10px;
 }
 
 .profile_pic img {
@@ -119,7 +126,7 @@ aside {
 
 .languages_list h4 {
     margin-bottom: 0;
-
+    font-weight: bold;
 }
 
 .languages_list p {
