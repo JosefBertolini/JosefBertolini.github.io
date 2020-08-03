@@ -1,11 +1,26 @@
-<div class="project_card">
-  <h3>Project Name</h3>
-  <div class="project_card_left">
-    <label><a href="#" target="_blank">Link to Download</a></label>
+<div class="project_card basic_border">
+  <h2>Project Name</h2>
+  <div class="project_card_element project_card_left">
+    <div>
+      <img src="" alt="Reference Image">
+    </div>
+    <a href="#" target="_blank">Link to Download</a>
     <br>
-    <label></M><a href="#" target="_blank">Link to Source</a></label>
+    <a href="#" target="_blank">Link to Source</a>
   </div>
-  <div class="project_card_right">
+  <div class="project_card_element project_card_right paragraph_text">
+    <p>description</p>
     <p>description</p>
   </div>
 </div>
+
+<aside class="left_sidebar">
+  <h3>Contact Me</h3>
+  <p><a href="mailto:joebertolini2013@gmail.com">Email me</a></p>
+  <p><a href="https://www.github.com/JosefBertolini" target="_blank">GitHub</a></p>
+  <p><a href="https://joebertolini.itch.io/" target="_blank">Itch.io</a></p>
+  <p><a href="https://www.linkedin.com/in/josef-bertolini-603495183/" target="_blank">LinkedIn</a></p>
+  <p><a href="https://uci.joinhandshake.com/users/6452965" target="_blank">UCI Handshake</a></p>
+  <button class="tooltip" onclick="copy_discord()" onmouseout="mouse_exit_discord_button()">My Discord
+  <span class="tooltiptext" id="discord_tooltip">Copied to Clipboard</span></button>
+</aside>

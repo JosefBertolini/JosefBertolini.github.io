@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joe Bertolini | Projects</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script type="text/javascript" src="JS/script.js"></script>
 </head>
 <body>
   <div class="container">
@@ -19,10 +20,10 @@
       </nav>
       <hr>
     </div>
-    <main class="main_content">
-      <div class="project_card">
+    <main class="main_content flex_display">
+      <div class="project_card basic_border">
         <h2>Season's Beatings</h2>
-        <div class="project_card_left">
+        <div class="project_card_element project_card_left">
           <div>
             <img src="resources/images/seasons_beatings.png" alt="Reference Image">
           </div>
@@ -30,14 +31,14 @@
           <br>
           <a href="https://github.com/gabeeck/SeasonsBeatings" target="_blank">Link to Source</a>
         </div>
-        <div class="project_card_right">
+        <div class="project_card_element project_card_right paragraph_text">
           <p>This was a game made in Unity in about 3 weeks for a class at UCI, ICS 161. I'm most proud of this project, given the quality of the game and features like original sounds effects and music. The game runs on all platforms, so please check it out!</p>
           <p>In a team of 6, we created a 2D top-down Beat 'em Up game about Black Friday shopping gone wrong. I was personally responsible for creating and implementing the weapon and combat systems for the game, including different types of melee weapons as well as firearms.</p>
         </div>
       </div>
-      <div class="project_card">
+      <div class="project_card basic_border">
         <h2>Raging Rocks</h2>
-        <div class="project_card_left">
+        <div class="project_card_element project_card_left">
           <div>
             <img src="resources/images/raging_rocks.png" alt="Reference Image">
           </div>
@@ -45,14 +46,14 @@
           <br>
           <a href="https://github.com/KrispyKarim517/RagingRocks" target="_blank">Link to Source</a>
         </div>
-        <div class="project_card_right">
+        <div class="project_card_element project_card_right paragraph_text">
           <p>This is another game made in Unity for a class at UCI, ICS 167 & 168, and we plan to continue development in the fall in ICS 169. This has been the longest project I've worked on, and its been the most ambitious I've worked on too. This project is still in progress, and we have lots of plans to add to the game.</p>
           <p>In a team of 5, we created an Android game that acts like a hybrid of W.O.R.M.S. and Angry Birds. This is an online PvP game where players shoot rocks out of cannons to destroy other players bases and rocks. My portion of the project is the gameplay programming, more specifically the power ups and behavior of objects in the game, and the controls as well.</p>
         </div>
       </div>
-      <div class="project_card">
+      <div class="project_card basic_border">
         <h2>Demon Party</h2>
-        <div class="project_card_left">
+        <div class="project_card_element project_card_left">
           <div>
             <img src="resources/images/demon_party.png" alt="Reference Image">
           </div>  
@@ -60,33 +61,51 @@
           <br>
           <a href="https://github.com/KrispyKarim517/BossKeys" target="_blank">Link to Source</a>
         </div>
-        <div class="project_card_right">
+        <div class="project_card_element project_card_right paragraph_text">
           <p>This is a game we made for the IGDA 2020 eJam, a 48 hour game jame with a theme of celebration. Originally, it was going to take place in a world overrun by demons and you play as a human slave cooking their dinner, and secretly trying to poison them. But that didn't fit the theme. This game is meant to prototype a larger project we want to work on, and I think it came out pretty good for the time spent on it.</p>
           <p>This is a typing game where you play as a chef at Benihana during a Halloween party. In this game, you need to type commands, and quickly, to cook food and keep your guests entertained. For this project I did most of the scripting responsible for Input and handling matching and reacting to correct input as well as some of the UI. It was a fun project to work on, and I'm proud of what the team was able to put together</p>
         </div>
       </div>
-      <div class="project_card">
+      <div class="project_card basic_border">
+        <h2>Programming Style Problems</h2>
+        <div class="project_card_element project_card_left">
+          <div>
+            <img src="resources/images/programming_styles_cover.jpg" alt="Reference Image">
+          </div>
+          <a href="https://repl.it/@JosefBertolini/Inf102#README.md" target="_blank">Link to Source</a>
+        </div>
+        <div class="project_card_element project_card_right paragraph_text">
+          <p>During my 3rd year at UCI I took a class where we went over many different styles and features of different programming languages and patterns. To practice with languages and styles, I reimplemented most of the Python 3 examples in <a href="https://www.oreilly.com/library/view/exercises-in-programming/9781482227376/" target="_blank"><em><u>the pictured textbook</u></em></a> in C++ and Java, usually about 2 examples each week. Each week has its own folder in the repl directory.</p>
+          <p>I listed this here for 2 reasons:</p>
+          <ul>
+            <li>1) I challenged myself to take a unique (potentially impractical) solution each time I worked on a new example.</li> 
+            <br>
+            <li>2) In each example, I had to use a lot of neat tricks to get around C++ static typing (including the first time I ever used <code>constexpr</code>). I think it is a good sign of my ingenuity as programmer and my ability to solve unusual problems.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project_card basic_border">
         <h2>Rust Tic-Tac-Toe</h2>
-        <div class="project_card_left">
+        <div class="project_card_element project_card_left">
           <div>
             <img src="resources/images/rust_tic_tac_toe.png" alt="Reference Image">
           </div> 
           <a href="https://github.com/JosefBertolini/RustTicTacToe" target="_blank">Link to Source</a>
         </div>
-        <div class="project_card_right">
+        <div class="project_card_element project_card_right paragraph_text">
           <p>A small project I did in late 2019 to get myself familiar with Rust. The GitHub only contains the source code, so to run it you will need to build it using cargo yourself</p>
           <p>Play Tic-Tac-Toe in the command line. This is a really simple program that enables you to play Tic-Tac-Toe on your command line, there isn't any AI so you'll need a friend to play against.</p>
         </div>
       </div>
-      <div class="project_card">
+      <div class="project_card basic_border">
         <h2>This Website</h2>
-        <div class="project_card_left">
+        <div class="project_card_element project_card_left">
           <div>
             <img src="resources/images/website.png" alt="Reference Image">
           </div>
           <a href="https://github.com/JosefBertolini/JosefBertolini.github.io" target="_blank">Link to Source</a>
         </div>
-        <div class="project_card_right">
+        <div class="project_card_element project_card_right paragraph_text">
           <p>My first delve into HTML after 7 years. I wanted to make my own website just to see what it was like. Honestly, I found it fairly tedious writing the HTML, but styling it all with CSS was equal parts fun, rewarding, and aggravating. Probably wont make another website anytime soon.</p>
           <p>This website is made with raw HTML5 and CSS3 over the course of about 3 collective days of working on it, I got distracted by other projects (that I'll add here when I'm done with them).</p>
         </div>
@@ -99,6 +118,8 @@
       <p><a href="https://joebertolini.itch.io/" target="_blank">Itch.io</a></p>
       <p><a href="https://www.linkedin.com/in/josef-bertolini-603495183/" target="_blank">LinkedIn</a></p>
       <p><a href="https://uci.joinhandshake.com/users/6452965" target="_blank">UCI Handshake</a></p>
+      <button class="tooltip" onclick="copy_discord()" onmouseout="mouse_exit_discord_button()">My Discord
+      <span class="tooltiptext" id="discord_tooltip">Copied to Clipboard</span></button>
     </aside>
   </div>
 </body>

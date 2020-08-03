@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joe Bertolini | Home</title>
   <link rel="stylesheet" href="CSS/style.css">
+  <script type="text/javascript" src="JS/script.js"></script>
 </head>
 <body>
   <div class="container">
@@ -20,7 +21,7 @@
       <hr>
     </div>
     <main class="main_content">
-      <div class="site_info">
+      <div class="site_info basic_border">
         <h2>About this Site</h2>
         <p>On this website you can access different pages that each give different insights into my career in Tech.</p>
         <ul>
@@ -29,18 +30,18 @@
           <li>You can download or view my current Resume on the <a href="resources/files/resume.pdf"><em>My Resume</em></a> page</li>
         </ul>
       </div>
-      <div class="about_me">
+      <div class="about_me basic_border">
         <h2>About Me:</h2>
         <div class="profile_pic">
           <img src="resources/images/me.png" alt="Profile Picture">
         </div>
-        <div class="bio">
+        <div class="bio paragraph_text">
           <p>Hello! My name is Josef Bertolini, and I'm currently a 4th year student at University of California, Irvine. I'm a Computer Game Science major doubling in Computer Science and specializing in Systems and Software. When I'm not working, I'm also and an avid gamer, and what I want to do with my career is to combine my love of playing games and my love of writing code and making software into a career of making great video games.</p> 
           <p>I've been programming for about 3 years, which is when I started college. I started with Python 3, and then eventually moved on to C++ (my preferred language) and then Java. The other tool I primarily use is the Unity 5 game engine; all my games have been made using this engine. I've dabbled in other programming languages as well, such as Lisp, C, and Prolog. Now my goal is to learn Rust, the idea of systems level speed with application level safety is very intriguing to me, and to learn how to use the Unreal Engine, since it's a more professionally used game engine. 
           </p>
         </div>
       </div>
-      <div class=skills>
+      <div class="skills basic_border">
         <h2>My Skillset:</h2>
         <div class="languages_list">
           <h3>Languages I know</h3>
@@ -51,7 +52,7 @@
 
             <h4>Unity Game Engine</h4>
             <p>Time Using: 1.5 years</p>
-            <p>Skill Level: Beginner-Intermediate</p>
+            <p>Skill Level: Intermediate</p>
 
             <h4>Python 3</h4>
             <p>Time Using: 1.5 years</p>
@@ -62,7 +63,7 @@
             <p>Skill Level: Intermediate</p>
 
             <h4>Rust</h4>
-            <p>Time Using: 1 month</p>
+            <p>Time Using: 2 months</p>
             <p>Skill Level: Beginner</p>
           </ul>
         </div>
@@ -83,7 +84,7 @@
           </ul>
         </div>
       </div>
-      <div class="work_experience">
+      <div class="work_experience basic_border">
         <h2>Previous Work Experience</h2>
         <div class="job_list">
           <ul>
@@ -108,6 +109,8 @@
       <p><a href="https://joebertolini.itch.io/" target="_blank">Itch.io</a></p>
       <p><a href="https://www.linkedin.com/in/josef-bertolini-603495183/" target="_blank">LinkedIn</a></p>
       <p><a href="https://uci.joinhandshake.com/users/6452965" target="_blank">UCI Handshake</a></p>
+      <button class="tooltip" onclick="copy_discord()" onmouseout="mouse_exit_discord_button()">My Discord
+      <span class="tooltiptext" id="discord_tooltip">Copied to Clipboard</span></button>
     </aside>
   </div>
 </body>

@@ -4,9 +4,20 @@ html {
 }
 
 body {
-    background-color: #c0c0c0;
-
+    background-color: #a3c9cc;
     font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    font-size: 28px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+nav {
+    font-size: 20px;
 }
 
 hr {
@@ -36,31 +47,103 @@ nav label {
     margin-right: 10px;
 }
 
-
+.basic_border {
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 0px 20px;
+    margin-bottom: 10px;
+}
 
 .container {
     position: relative;
     margin: auto;
     width: 90%;
+    min-width: 800px;
+}
+
+.flex_display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 main {
     position: relative;
-    float: left;
-    width: 69%;
+    float: right;
+    margin-right: 15%;
+    width: 65%;
 }
 
 aside {
     position: fixed;
     width: 14%;
-    right: 0;
-    float: right;
-    margin-right: 5%;
+    max-width: 200px;
+    min-width: 150px;
+    left: 10;
+    float: left;
+    margin-right: 80%;
 
     border: 2px black solid;
     border-radius: 10px;
 
+    background-color: #ccaea3;
+
     text-align: center;
+}
+
+aside button {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    background: none;
+    border: none;
+    padding-bottom: 10px;
+}
+
+aside button:hover {
+    color: whitesmoke;
+}
+
+/* Boilerplate styling credit: w3schools */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #a3c9cc;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #a3c9cc transparent transparent transparent;
+  }
+  
+/* End credited styling */
+
+.paragraph_text {
+    text-align: justify;
 }
 
 .site_header {
@@ -69,19 +152,13 @@ aside {
 }
 
 .site_info {
-    border: 2px black solid;
-    border-radius: 10px;
-    padding: 0px 20px;
-    margin-bottom: 10px;
+    background-color: #ccaea3;
     width: 100%;
 }
 
 .about_me {
     position: relative;
-    border: 2px black solid;
-    border-radius: 10px;
-    padding: 0px 20px;
-    margin-bottom: 10px;
+    background-color: #ccaea3;
     width: 100%;
 
     overflow: hidden;
@@ -107,10 +184,7 @@ aside {
 }
 
 .skills {
-    border: 2px black solid;
-    border-radius: 10px;
-    padding: 0px 20px;
-    margin-bottom: 10px;
+    background-color: #ccaea3;
     width: 100%;
 
     overflow: hidden;
@@ -144,10 +218,7 @@ aside {
 }
 
 .work_experience {
-    border: 2px black solid;
-    border-radius: 10px;
-    padding: 0px 20px;
-    margin-bottom: 10px;
+    background-color: #ccaea3;
     width: 100%;
 }
 
@@ -163,28 +234,48 @@ aside {
 /*PROJECT PAGE STYLING*/
 
 .project_card {
-    border: 2px black solid;
-    border-radius: 10px;
-    padding: 0px 20px;
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
     padding-bottom: 10px;
-    margin-bottom: 10px;
 
-    overflow: hidden;
+    background-color: #ccaea3;
+
+    min-width: 600px;
+    max-width: 800px;
+    max-height: 800px;
+
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.project_card:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px 10px #696462;
+}
+
+.project_card_element {
+    margin: 0;
+    position: relative;
+    width: 47.5%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-105%, -60%);
 }
 
 .project_card_left {
     float: left;
-    width: 50%;
     margin: auto;
 }
 
 .project_card_left img {
     margin-bottom: 20px;
+    width: 100%;
+    height: auto;
 } 
 
 .project_card_right {
     float: right;
-    width: 50%;
 }
 
 .project_card_bottom {
