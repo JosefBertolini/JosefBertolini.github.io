@@ -145,8 +145,10 @@ aside button:hover {
 .main_content {
     position: absolute;
     align-content: center;
-    max-width: 1100px;
+}
+.home_page {
     transform: translateX(7%);
+    max-width: 1100px;
 }
 
 .paragraph_text {
