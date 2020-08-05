@@ -65,6 +65,8 @@ nav label {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 3%;
+    padding-right: 5%;
 }
 
 main {
