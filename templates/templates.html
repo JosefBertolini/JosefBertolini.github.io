@@ -1,0 +1,60 @@
+<!-- Project Card -->
+<div class="project-card basic-border">
+  <h2>TITLE</h2>
+  <div class="box">
+      <div class="card-left">
+          <img src="resources/images/me.png" alt="Logo">
+          <p><a href="#">Link 1</a></p>
+          <p><a href="#">Link 2</a></p>
+      </div>
+      <div class="card-right">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolor labore voluptatibus accusamus, deleniti illo eligendi quod laboriosam ab aliquam tenetur. Iusto ipsam temporibus libero iure sunt soluta molestias nostrum!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet officia aliquid dolor eius quod voluptatem soluta explicabo, minus accusantium obcaecati molestiae at quasi fugiat qui doloremque impedit culpa commodi.</p>
+      </div>
+  </div>
+</div>
+
+
+<!-- New Webpage -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/generic_styling.css">
+    <link rel="stylesheet" href="CSS/home_page_styling.css">
+    <script type="text/javascript" src="JS/script.js"></script>
+    <title>Joe Bertolini | *****</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>HEADER</h1>
+            <nav>
+                <label for="home-button"><a href="index.html">Home</a></label>
+                <label for="projects-button"><a href="projects.html">Projects</a></label>
+                <label for="resume-button"><a href="resources/files/resume.pdf" target="_blank">Resume</a></label>
+            </nav>
+            <hr>
+        </header>
+        <main class="content">
+            <div>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias corrupti aut assumenda adipisci. Ex, suscipit! Sapiente nam quod cumque nemo cum qui quas dignissimos deleniti iure. Obcaecati, beatae. Molestias, accusamus!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta fugiat porro maiores aspernatur ipsum aperiam quod dolor dolore eius, omnis rerum quo dignissimos debitis labore iure illo vitae veniam.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, repudiandae adipisci eligendi cum nostrum vitae aliquam, commodi ullam eos quam tenetur iure! Harum dolore ad numquam deserunt officiis reprehenderit aperiam.
+            </div>
+        </main>
+        <aside class="sidebar">
+          <label for="title" id="sidebar-title" style="transform: translateY(115%);">You can find me here:</label>
+          <hr style="transform: translateY(5550%);">
+          <label for="email" style="transform: translateY(450%);"><a href="#">Email Me</a></label>
+          <label for="github" style="transform: translateY(550%);"><a href="#">GitHub</a></label>
+          <label for="itch" style="transform: translateY(650%);"><a href="#">Itch.io</a></label>
+          <label for="linkedin" style="transform: translateY(750%);"><a href="#">LinkedIn</a></label>
+          <label for="Handshake" style="transform: translateY(850%);"><a href="#">UCI Handshake</a></label>
+          <button class="tooltip" onclick="copy_discord()" onmouseover="mouse_enter_discord_button()" onmouseout="mouse_exit_discord_button()">My Discord
+              <span class="tooltiptext" id="discord_tooltip">Copy to Clipboard</span></button>
+      </aside>
+    </div>
+</body>
+</html>

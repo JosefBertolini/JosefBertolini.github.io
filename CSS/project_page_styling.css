@@ -1,0 +1,56 @@
+.wrap-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3% 3%;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Project Card Styling */
+.project-card {
+    flex: 1;
+    background-color: #ccaea3;
+    min-width: 800px;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 5px 5px;
+}
+
+.project-card .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.project-card:hover {
+    z-index: 3;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 20px 10px #2f2b2a;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+
+.card-left img {
+    align-self: flex-start;
+}
+
+.card-left p {
+    align-self: space-evenly;
+}
+
+
+.card-right {
+    width: 50%;
+}
+
+.card-right p {
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: justify;
+}

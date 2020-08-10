@@ -1,0 +1,125 @@
+/* STYLING FOR HOME PAEG ITEMS */
+
+@media (min-width: 1878px) {
+    body {
+        font-size: x-large;
+    }
+}
+
+
+/* ABOUT SITE BLOCK */
+.about-site-block #li2 {
+    padding: 5px;
+}
+
+/* ABOUT ME BLOCK */
+.about-me-block .box{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.profile-pic {
+    order: 1;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.profile-pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bio {
+    order: 2;
+    width: 74.5%;
+}
+
+/* SKILLS BLOCK */
+.skills-block .box {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
+.lang-list {
+    width: 33%;
+    justify-self: flex-start;
+    padding-bottom: 15px;
+}
+
+.lang-list-elem {
+    margin-bottom: 15px;    
+}
+
+.lang-list-elem li {
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.lang-list-elem p {
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.course-list {
+    width: 31%;
+}
+
+.course-list ul{
+    padding-left: 0px;
+}
+
+.course-list li {
+    list-style: outside;
+    padding: 5px 0px;
+    margin: 0px;
+    text-align: left;
+    max-width: 90%;
+}
+
+.award-list {
+    width: 31%;
+}
+
+.award-list ul {
+    padding-left: 5px;
+}
+
+.award-elem {
+    margin-bottom: 15px;
+}
+
+.award-elem ul {
+    padding-left: 25px;
+}
+
+/* Work Experience Styling */
+.work-experience .box {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-evenly;
+}
+
+.work-elem {
+    padding: 2px;
+}
+
+.work-elem h3 {
+    margin-bottom: 2px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.time-frame {
+    font-weight: bold;
+    padding-top: 0px;
+    margin-top: 0px;
+}

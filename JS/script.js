@@ -12,10 +12,18 @@ function copy_discord() {
     var tooltip = document.getElementById("discord_tooltip");
     tooltip.style.opacity = 1;
     tooltip.style.visibility = "visible";
+    tooltip.innerHTML = "Copied!";
+}
+
+function mouse_enter_discord_button(){
+    var tooltip = document.getElementById("discord_tooltip");
+    tooltip.style.opacity = 1;
+    tooltip.style.visibility = "visible";
 }
 
 function mouse_exit_discord_button() {
     var tooltip = document.getElementById("discord_tooltip");
     tooltip.style.opacity = 0;
-    tooltip.style.visibility = "invisible";
+    tooltip.style.visibility = "hidden";
+    tooltip.innerHTML = "Copy to Clipboard";
 }
