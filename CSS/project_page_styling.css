@@ -15,6 +15,7 @@
     max-width: 800px;
     max-height: 800px;
     margin: 5px 5px;
+    transition: 0.2s;
 }
 
 .project-card .box {
