@@ -85,7 +85,7 @@ a:hover {
     margin: 0;
     padding: 5px 20px;
     position: fixed;
-    transform: translateY(940%);
+    transform: translateY(850%);
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     color: black;
@@ -105,9 +105,8 @@ a:hover {
 .sidebar #sidebar-title {
     font-size: x-large;
     font-weight: bold;
-    text-align: center;
     width: 245px;
-    padding: 0%;
+    padding: 0 0 0 10px;
     margin: 0px;
 }
 

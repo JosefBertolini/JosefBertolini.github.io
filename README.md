@@ -1,2 +1,1 @@
-# JosefBertolini.github.io
-My Website, made from scratch
+`goto ` [josefbertolini.github.io](https://josefbertolini.github.io);

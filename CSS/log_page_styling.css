@@ -1,0 +1,24 @@
+.log-title {
+    font-weight: bolder;
+    font-size: xx-large;
+    text-decoration: underline;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.log-date {
+    font-weight: lighter;
+    font-size: medium;
+    font-style: italic;
+    text-align: left;
+    margin-top: 0;
+}
+
+.log-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.log-paragraph {
+    text-align: center;
+}
