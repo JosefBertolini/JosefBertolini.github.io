@@ -24,7 +24,7 @@ a:hover {
 
 .container {
     display: grid;
-    grid-template-columns: 245px 2fr 2fr;
+    grid-template-columns: 185px 2fr 2fr;
     grid-template-rows: 1fr auto;
     grid-template-areas: 
     "sidebar header header"
@@ -64,7 +64,7 @@ a:hover {
     grid-area: sidebar;
     position: fixed;
     font-size: large;
-    min-width: 245px;
+    min-width: 185px;
     min-height: 200%;
     top: 0;
     left: 0;
@@ -79,7 +79,7 @@ a:hover {
 .sidebar hr {
     position: fixed;
     border: 1px solid black;
-    width: 243px;
+    width: 183px;
 }
 .sidebar button {
     margin: 0;

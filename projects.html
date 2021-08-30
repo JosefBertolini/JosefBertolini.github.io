@@ -22,7 +22,7 @@
             <hr>
         </header>
         <main class="content" style="max-width: 2000px;">
-            <h2>Favorite Projects</h2>
+            <h2 class="section-title">Favorite Projects</h2>
             <div class="wrap-display">
                 <div class="project-card basic-border">
                     <h2>Peter Chat</h2>
@@ -33,7 +33,7 @@
                         </div>
                         <div class="card-right">
                             <p>Wrote the server-side code for a chatroom application in C. I used POSIX threads to increase the performance of the server, and implemented a thread-safe, generic HashMap, HashSet, and Vector data to use within the server code.</p>
-                            <p>This is honestly on of my favorite projects to work on, and it solidified my desire to pursue systems programming as a potential career path. The finished product (still had a few bugs but) was able to support an arbitrary number of concurrent users and rooms, and the source clocked in at just over 2500 lines of code.</p>
+                            <p>This was one of my favorite projects to work on, and it solidified my desire to pursue systems programming as a potential career path. The finished product (still had a few bugs but) was able to support an arbitrary number of concurrent users and rooms, and the source clocked in at just over 2500 lines of code.</p>
                         </div>
                     </div>
                 </div>
@@ -46,8 +46,8 @@
                             <p><a href="https://github.com/gabeeck/SeasonsBeatings" target="_blank">Link to Source</a></p>
                         </div>
                         <div class="card-right">
-                            <p>This was a game made in Unity in about 3 weeks for a class at UCI, ICS 161. I'm most proud of this project, given the quality of the game and features like original sounds effects and music. The game runs on all platforms, so please check it out!</p>
-                            <p>In a team of 6, we created a 2D top-down Beat 'em Up game about Black Friday shopping gone wrong. I was personally responsible for creating and implementing the weapon and combat systems for the game, including different types of melee weapons as well as firearms.
+                            <p>This is a top down beat 'em game made in Unity. Responsible for implement the combat and weapon systems. I designed the weapons system to be scalable in the sense of adding/removing/editing weapons would be <em>frictionless</em> and the combat to be fast and fluid.</p>
+                            <p>I am very proud of the project given how polished most the features are and how fun the game is to play, especially given the amount of time dedicated to the project (~2 weekends). I learned a lot from this project, not only about designing games and program structure, but about working in teams as well (which was more valuable at the time). The game is playable on Windows 10 (maybe 7 & 8, it's not tested) so check it out if you have some time to kill.</p>
                         </div>
                     </div>
                 </div>
@@ -57,16 +57,18 @@
                         <div class="card-left">
                             <img src="/resources/images/llvm.png" alt="Logo" style="max-width: 100%; transform: translate(-15px, 55px);">
                             <br><br><br><br><br>
-                            <p><a href="mailto:joebertolini2013@gmail.com">Email to request to view source</a></p>
+                            <p style="font-weight: bold;">Source has been lost &#128533</p>
                         </div>
                         <div class="card-right">
-                            <p>I wrote a compiler for a simple LLVM language called <em>Crux</em>. The compiler is written in Java and uses real world tools like ANTLR4. The project covers all aspects of a compiler: grammar, the AST, static type checking, creating the IR, and generating x86_64 assembly code. The language itself supports function definition, recursion, control flow structures, ans strong typing with static scoping with variable shadowing.</p>
-                            <p>Being 100% honest, this was the most difficult project I have ever worked on at that point in time, but I loved every bit of it. It challenged all of the concepts of programming that I knew as well as introducing new concepts, like <em>Reflection</em> (however I have done more advanced Reflection programming since) and using an IDE debugger. I kinda shot myself in the foot because this was a pair project that I chose to do by myself, but I enjoyed the challenge that came of it, so I don't mind.</p>
+                            <p>I wrote an LLVM-based compiler for a simple language called <em>Crux</em>. The compiler is written in Java and uses real world tools like ANTLR4. The project covers all aspects of a compiler: grammar, the AST, static type checking, creating the IR, and generating x86_64 assembly code. The language itself supports function definition, recursion, control flow structures, and strong typing with static scoping with variable shadowing.</p>
+                            <p>This was the most difficult project I have ever worked on at that point in time, but I loved every bit of it. It challenged all of the concepts of programming that I knew as well as introducing new concepts, like <em>Reflection</em> and using an IDE debugger. I kinda shot myself in the foot because this was a pair project that I chose to do by myself, but I enjoyed the challenge that came of it, so I didn't mind.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2>Larger Projects</h2>
+            <br>
+            <br>
+            <h2 class="section-title">Other Projects</h2>
             <div class="wrap-display">
                 <div class="project-card basic-border">
                     <h2>Vocab Tiles</h2>
@@ -82,7 +84,7 @@
                     </div>
                 </div>
                 <div class="project-card basic-border">
-                    <h2>Macro-Nutritient Tracker</h2>
+                    <h2>Macro-Nutrient Tracker</h2>
                     <div class="box">
                         <div class="card-left">
                             <img src="/resources/images/macrotracker-image.png" alt="Logo">
@@ -106,39 +108,8 @@
                             <p><a href="https://krispykarim517.itch.io/capstone-project" target="_blank">Click to Play (W.I.P.)</a></p>
                         </div>
                         <div class="card-right">
-                            <p>This is another game made in Unity for my Senior Capstone project at UCI. This game went through almost a development hell, the type of game changed a few times, and the target platform changed twice, however it has still be fun to make and work onm and I'm excited to see where the final product is going to end up.</p>
-                            <p>In a team of 5, we're creating a browser game where the player essentially launches rocks out of a cannon to destroy forts. It's a lot like Angry Birds, but we got ideas from <a href="https://en.wikipedia.org/wiki/Bloons" target="_blank">Bloons</a> as well as some other games. Originally, players were going to be playing against an AI but we couldn't get that done within the classes time constraints.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h2>Side Projects</h2>
-            <div class="wrap-display">
-                <div class="project-card basic-border">
-                    <h2>Demon Party</h2>
-                    <div class="box">
-                        <div class="card-left" style="transform: translateY(25px);">
-                            <img src="/resources/images/demon_party.png" alt="Logo">
-                            <p><a href="https://github.com/KrispyKarim517/BossKeys" target="_blank">Link to Source</a></p>
-                            <p><a href="https://krispykarim517.itch.io/demon-party" target="_blank">Link to Download</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>This is a game we made for the IGDA 2020 eJam, a 48 hour game jame with a theme of celebration. Originally, it was going to take place in a world overrun by demons and you play as a human slave cooking their dinner, and secretly trying to poison them. But that didn't fit the theme. This game is meant to prototype a larger project we want to work on, and I think it came out pretty good for the time spent on it.</p>
-                            <p>This is a typing game where you play as a chef at Benihana during a Halloween party. In this game, you need to type commands, and quickly, to cook food and keep your guests entertained. For this project I did most of the scripting responsible for Input and handling matching and reacting to correct input as well as some of the UI. It was a fun project to work on, and I'm proud of what the team was able to put together</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>Blackbeard's Booty</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/booty.png" alt="Logo" style=" max-width: 100%; transform: translate(0,0);">
-                            <p><a href="https://github.com/KrispyKarim517/eJamGambling" target="_blank">Link to Source</a></p>
-                            <p><a href="https://gamejolt.com/games/bb/524889" target="_blank">Link to Download</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>This is a monitor game designed to be played in bars and restaurants. In this game players bet on what gems come out of a treasure chest that randomly generates a set of 5 gems. Players can attempt to match 3, 4, or 5 of the gems in any order to win, but if they also match the sequence of gems they get double the prize.</p>
-                            <p>This game was made as an entry to the 2020 Colorado Lottery Game Jam, where the challenge was to make a new, creative kind of monitor game. This game won 2nd prize among the 30 games presented. It was really fun to work on as much as it was a nightmare since we changed our design about 4 times during the jam.</p>
+                            <p>This is a Unity project where players launch rocks and attain power ups to destroy forts. I was responsible for most of the gameplay programming as well as designing and balancing the power ups.</p>
+                            <p>This game essentially went through a development hell, the type of game changed a few times, and the target platform changed twice, and the COVID-19 pandemic absolutely killed momentum, however it was still fun to make and work on and I like where the final product ended up. The game runs in the browser so give it play when you have some spare time.</p>
                         </div>
                     </div>
                 </div>
@@ -148,12 +119,11 @@
                         <div class="card-left">
                             <img src="/resources/images/rasterization.gif" alt="Logo" style="width: 110%;transform: translate(-25px, 55px);">
                             <br><br><br><br>
-                            <p><a href="mailto:joebertolini2013@gmail.com">Email to request to view source of single-threaded version</a></p>
+                            <p><a href="mailto:joebertolini2013@gmail.com">Cannot release source</a></p>
                         </div>
                         <div class="card-right">
                             <p>Created a Rasterizer in C++ that can trace primitive shapes in a given scene and outputs a PGM image. The program uses a custom file type to create the scene, where you can define the viewport size and location, light point, and location of shapes. I created this project using OOP principles with some new (at the time) features of C++17. The programing runs with an arbitrary amount of threads without encountering any data races or deadlocks and is about 70% faster on average than the single threaded version.</p>
                             <p>This was a fun project that I made over the course of a couple days. Ironically, the hardest parts of the project was reading the physics equations correctly. This was the first time I wrote a multi-threaded program, and it was very intimidating, but working on the project, as well as some other ones after, really demystified concurrency and helped turn it into a valuable skill.</p>
-                            <p><em>I also promised to not release the C++ source code online since it would be used as a school project</em></p>
                         </div>
                     </div>
                 </div>
@@ -165,39 +135,13 @@
                             <p><a href="https://repl.it/@JosefBertolini/Inf102#README.md" target="_blank">Link to Source</a></p>
                         </div>
                         <div class="card-right">
-                            <p>During my 3rd year at UCI I took a class where we went over many different styles and features of different programming languages and patterns. To practice with languages and styles, I reimplemented most of the Python 3 examples in <a href="https://www.oreilly.com/library/view/exercises-in-programming/9781482227376/" target="_blank"><em><u>the pictured textbook</u></em></a> in C++ and Java, usually about 2 examples each week. Each week has its own folder in the repl directory.</p>
+                            <p>During my 3rd year at UCI I took a class where we went over many different styles and features of different programming languages and patterns. To practice with languages and styles, I re-implemented most of the Python 3 examples in <a href="https://www.oreilly.com/library/view/exercises-in-programming/9781482227376/" target="_blank"><em><u>the pictured textbook</u></em></a> in C++ and Java, usually about 2 examples each week. Each week has its own folder in the repl directory.</p>
                             <p>I listed this here for 2 reasons:</p>
                             <ul>
                                 <li>1) I challenged myself to take a unique (potentially impractical) solution each time I worked on a new example.</li> 
                                 <br>
                                 <li>2) In each example, I had to use a lot of neat tricks to get around C++ static typing (including the first time I ever used <code>constexpr</code>). I think it is a good sign of my ingenuity as programmer and my ability to solve unusual problems.</li>
                             </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>Rust Tic-Tac-Toe</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/rust_tic_tac_toe.png" alt="Logo">
-                            <p><a href="https://github.com/JosefBertolini/RustTicTacToe" target="_blank">Link to Source</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>A small project I did in late 2019 to get myself familiar with Rust. The GitHub only contains the source code, so to run it you will need to build it using cargo yourself</p>
-                            <p>Play Tic-Tac-Toe in the command line. This is a really simple program that enables you to play Tic-Tac-Toe on your command line, there isn't any AI so you'll need a friend to play against.</p>
-                        </div>  
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>This Website</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/website.png" alt="Logo">
-                            <p><a href="https://github.com/JosefBertolini/JosefBertolini.github.io" target="_blank">Link to Source</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>My first delve into HTML after 7 years. I wanted to make my own website just to see what it was like. Honestly, I found it fairly tedious writing the HTML, but styling it all with CSS was equal parts fun, rewarding, and aggravating. Probably wont make another website anytime soon.</p>
-                            <p>This website is made with raw HTML5 and CSS3 over the course of about 3 collective days of working on it, I got distracted by other projects (that I'll add here when I'm done with them).</p>
                         </div>
                     </div>
                 </div>
