@@ -132,6 +132,10 @@ a:hover {
     text-align: center;
 }
 
+.hidden-text {
+    display: inline-block;
+    color: #a3c9cc; 
+}
 
 /* Snippet Taken and edited from w3schools */
 .tooltip {
