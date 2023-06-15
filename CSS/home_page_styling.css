@@ -15,7 +15,8 @@
 .profile-pic {
     order: 1;
     max-width: 300px;
-    margin-right: 20px;
+    margin: auto;
+    padding-right: 20px;
 }
 
 .profile-pic img {
@@ -26,6 +27,19 @@
 .bio {
     order: 2;
     width: 74.5%;
+}
+
+@media screen and (max-width: 700px) {
+    .about-me-block .box {
+       flex-direction: column; 
+       align-items: center;
+       justify-content: center;
+       margin: auto;
+    }
+    
+    .bio {
+        width: 90%;
+    }
 }
 
 /* SKILLS BLOCK */

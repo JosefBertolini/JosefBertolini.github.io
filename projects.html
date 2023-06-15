@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/generic_styling.css">
     <link rel="stylesheet" href="/CSS/project_page_styling.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="icon" href="/resources/images/favicon.ico">
     <script type="text/javascript" src="/JS/script.js"></script>
     <title>Joe Bertolini | Projects</title>
@@ -147,9 +148,10 @@
                 </div>
             </div>
         </main>
-        <aside class="sidebar">
-            <label for="title" id="sidebar-title" style="transform: translateY(315%);">Links:</label>
-            <hr style="transform: translateY(5550%);">
+        <span id="sidebar-toggle" class="sidebar-toggle material-symbols-outlined" onclick="toggle_sidebar()">menu</span>
+        <aside class="sidebar hide-block">
+            <label for="title" id="sidebar-title" style="transform: translateY(325%);">Links:</label>
+            <hr style="transform: translateY(5505%);">
             <label for="email" style="transform: translateY(450%);"><a href="mailto:joebertolini2013@gmail.com">Email Me</a></label>
             <label for="github" style="transform: translateY(550%);"><a href="https://github.com/JosefBertolini">GitHub</a></label>
             <label for="itch" style="transform: translateY(650%);"><a href="https://joebertolini.itch.io/">Itch.io</a></label>
