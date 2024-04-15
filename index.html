@@ -1,118 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/generic_styling.css">
-    <link rel="stylesheet" href="CSS/home_page_styling.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="icon" href="resources/images/favicon.ico">
-    <script type="text/javascript" src="JS/script.js"></script>
-    <title>Joe Bertolini | Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/generic_styling.css">
+  <link rel="stylesheet" href="CSS/home_page_styling.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+  <link rel="icon" href="resources/images/favicon.ico">
+  <script type="text/javascript" src="JS/script.js"></script>
+  <title>Joe Bertolini | Home</title>
 </head>
+
 <body>
-    <div class="container">
-        <header class="header">
-            <h1>Welcome!</h1>
-            <nav>
-                <label for="home-button"><a href="index.html">Home</a></label>
-                <label for="projects-button"><a href="projects.html">Projects</a></label>
-                <label for="devlogs-button"><a href="devlogs_splash.html">DevLogs</a></label>
-                <label for="resume-button"><a href="resources/files/resume.pdf" target="_blank">Resume</a></label>
-            </nav>
-            <hr>
-        </header>
-        <main class="content" style="max-width: 1700px;">
-            <div class="about-site-block basic-border">
-                <h2>About this Site:</h2>
-                <ul>
-                    <li>The <a href="projects.html"><em>Projects</em></a> page will give you the details and links to the projects I've done and/or contributed to</li>
-                    <li>The <a href="devlogs_splash.html"><em>Dev Logs</em></a> page will take you to my logs where I jot down thoughts about my projects and career</li>
-                    <li>You can download or view my Resume (last updated December 2021) <a href="resources/files/resume.pdf" target="_blank"><em>here</em></a> or at the top of the page</li>
-                    <li>Contact Information is available from the popout blade (click/tap the icon in the top left)</li>
-                </ul>
-            </div>
-            <div class="about-me-block basic-border">
-                <h2>About Me:</h2>
-                <div class="box">
-                    <div class="profile-pic">
-                        <img src="resources/images/me.png" alt="Profile Picture">
-                    </div>
-                    <div class="bio paragraph_text">
-                        <p>Hey! My name is Joe Bertolini, a UC Irvine Alum and Software Engineer based in Seattle.</p>
-                        <p>I didn’t start programming until I started college for Game Design. Then I discovered the my actual favorite part of making games is programming. Probably my favorite aspect of being a programmer, and programming in general, is that there is always something new to learn and new ways to master what is already known. This is what sparked my interest in Low/Systems Level Programming, as I beieve understanding programming at that level provides a lot knowledge and skills that can be applied to other fields, as well as provide a greater appreciation for lots of critical software we use today.</p>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-            <div class="work-experience basic-border">
-                <h2 style="margin-bottom: 0%;">Work Experience</h2>
-                <p style="padding: 0%; margin-top: 0%;">&emsp;&emsp;More details on Resume</p>
-                <div class="box">
-                    <div class="work-elem">
-                        <h3>Microsoft - Software Engineer</h3>
-                        <p class="time-frame">Since May 2022</p>
-                        <ul class="desc-list">
-                            <li>Part of Azure Security Monitoring Team, under Microsoft Security</li>
-                            <li>Own the development and release of the GenevaMonitoring extension, which deploys AzureSecurityPack to millions of machines in both production and nonproduction environments.</li>
-                            <li>Primary development tasks involve writing safe and performant C++ code.</li>
-                        </ul>
-                    </div>
-                    <div class="work-elem">
-                        <h3>Ezoic - Software Engineer</h3>
-                        <p class="time-frame">June 2021 - April 2022</p>
-                        <ul class="desc-list">
-                            <li>Worked on both internal tools and customer-facing web applications, primarily for Leap</li>
-                            <li>Primarily used Golang and Vue.js to build said applications</li>
-                        </ul>
-                    </div>
-                    <div class="work-elem">
-                        <h3>UC Irvine - Undergraduate Reader</h3>
-                        <p class="time-frame">March - June 2021</p>
-                        <ul class="desc-list">
-                            <li>Assisted the Professor in creating and grading assignments for <em>ICS 53</em>, an introductory course in Systems programming</li>
-                            <li>Created a client side application for and auction server in C to supplement an assignment</li>
-                        </ul>
-                    </div>
-                    <div class="work-elem">
-                        <h3>MLH, U.S. DoD - Software Engineering Intern</h3>
-                        <p class="time-frame">October - December 2020</p>
-                        <ul class="desc-list">
-                            <li>Created a web application to streamline and track multi-stage document signing</li>
-                            <li>Implemented the backend with Node and designed the database schema</li>
-                        </ul>
-                    </div>
-                    <div class="work-elem">
-                        <h3>Tesseract Interactive - Game Development Workshop Volunteer</h3>
-                        <p class="time-frame">August 2020</p>
-                        <ul class="desc-list">
-                            <li>Took part in running a two day workshop where that taught a group of High School students the basic concepts of designing and developing games</li>
-                            <li>Covered the basics of scripting, physics, animations, and scene building in Unity, as well as programming fundamentals</li>
-                        </ul>
-                    </div>
-                    <div class="work-elem">
-                        <h3>KPX Engineering - Assistant Data Analyst</h3>
-                        <p class="time-frame">June - September 2019</p>
-                        <ul class="desc-list">
-                            <li>Contracted to assist in a research project pertaining to staffing and speed of service for Taco Bell International</li>
-                            <li>Leveraged Python and openpyxl to compound and analyze large excel sheets containing rates of food production</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <span id="sidebar-toggle" class="sidebar-toggle material-symbols-outlined" onclick="toggle_sidebar()">menu</span>
-        <aside class="sidebar hide-block">
-            <label for="title" id="sidebar-title" style="transform: translateY(325%);">Links:</label>
-            <hr style="transform: translateY(5505%);">
-            <label for="email" style="transform: translateY(450%);"><a href="mailto:joebertolini2013@gmail.com">Email Me</a></label>
-            <label for="github" style="transform: translateY(550%);"><a href="https://github.com/JosefBertolini">GitHub</a></label>
-            <label for="itch" style="transform: translateY(650%);"><a href="https://joebertolini.itch.io/">Itch.io</a></label>
-            <label for="linkedin" style="transform: translateY(750%);"><a href="https://www.linkedin.com/in/josef-bertolini/">LinkedIn</a></label>
-            <button class="tooltip" onclick="copy_discord()" onmouseover="mouse_enter_discord_button()" onmouseout="mouse_exit_discord_button()">My Discord
-                <span class="tooltiptext" id="discord_tooltip">Copy to Clipboard</span>
-            </button>
-        </aside>
-    </div>
+  <div class="container">
+    <header class="header">
+      <h1>Welcome!</h1>
+      <nav>
+        <label for="home-button"><a href="index.html">Home</a></label>
+        <label for="projects-button"><a href="projects.html">Projects</a></label>
+        <label for="devlogs-button"><a href="devlogs_splash.html">DevLogs</a></label>
+        <label for="resume-button"><a href="resources/files/resume.pdf" target="_blank">Resume</a></label>
+      </nav>
+      <hr>
+    </header>
+    <main class="content" style="max-width: 1700px;">
+      <div class="about-site-block basic-border">
+        <h2>About this Site:</h2>
+        <ul>
+          <li>The <a href="projects.html"><em>Projects</em></a> page will give you the details and links to the projects I've done and/or contributed to</li>
+          <li>The <a href="devlogs_splash.html"><em>Dev Logs</em></a> page will take you to my logs where I jot down thoughts about my projects and career</li>
+          <li>You can download or view my Resume (last updated December 2021) <a href="resources/files/resume.pdf" target="_blank"><em>here</em></a> or at the top of the page</li>
+          <li>Contact Information is available from the popout blade (click/tap the icon in the top left)</li>
+        </ul>
+      </div>
+      <div class="about-me-block basic-border">
+        <h2>About Me:</h2>
+        <div class="box">
+          <div class="profile-pic">
+            <img src="resources/images/me.png" alt="Profile Picture">
+          </div>
+          <div class="bio paragraph_text">
+            <p>Hey! My name is Joe Bertolini, a UC Irvine Alum and Software Engineer based in Seattle.</p>
+            <p>
+              I didn’t start programming until I started college for Game Design. Then I discovered the my actual favorite part of making games is programming. Probably my favorite aspect of being a 
+              programmer, and programming in general, is that there is always something new to learn and new ways to master what is already known. This is what sparked my interest in Low/Systems Level 
+              Programming, as I beieve understanding programming at that level provides a lot knowledge and skills that can be applied to other fields, as well as provide a greater appreciation for 
+              lots of critical software we use today.
+            </p>
+            <p>
+              As a worker, I highly value individual autonomy and a fast paced environment. As someone with ADHD, I work best when I don't get hung up on a slow bureaucratic process or being forced to
+              wait on someone else before I can make progress. I can wear many hats, but my productivity drops astronomically when I have to constantly switch between them. To be clear, this isn't me
+              saying "Leave me alone and I'll do what I want," I actually firmly believe that collaboration with the team is a core pillar of excellent software development. What I'm trying to say is,
+              I thrive in an environment where I can be given a task and a deadline, and be given the trust that I can and will complete the work by the deadline, and that I will speak up if something
+              changes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="work-experience basic-border">
+        <h2 style="margin-bottom: 0%;">Work Experience</h2>
+        <p style="padding: 0%; margin-top: 0%;">&emsp;&emsp;Recent and relevant details on my <a href="resources/files/resume.pdf" target="_blank">Resume</a></p>
+        <div class="box">
+          <div class="work-elem">
+            <h3>Microsoft - Software Engineer</h3>
+            <p class="time-frame">May 2022 - April 2024</p>
+            <ul class="desc-list">
+              <li>Part of Azure Security Monitoring Team, under Microsoft Security</li>
+              <li>Own the development and release of the GenevaMonitoring extension, which deploys AzureSecurityPack to millions of machines in both production and nonproduction environments.</li>
+              <li>Primary development tasks involve writing safe and performant C++ code.</li>
+            </ul>
+          </div>
+          <div class="work-elem">
+            <h3>Ezoic - Software Engineer</h3>
+            <p class="time-frame">June 2021 - April 2022</p>
+            <ul class="desc-list">
+              <li>Worked on both internal tools and customer-facing web applications, primarily for Leap</li>
+              <li>Primarily used Golang and Vue.js to build said applications</li>
+            </ul>
+          </div>
+          <div class="work-elem">
+            <h3>UC Irvine - Undergraduate Reader</h3>
+            <p class="time-frame">March - June 2021</p>
+            <ul class="desc-list">
+              <li>Assisted the Professor in creating and grading assignments for <em>ICS 53</em>, an introductory course in Systems programming</li>
+              <li>Created a client side application for and auction server in C to supplement an assignment</li>
+            </ul>
+          </div>
+          <div class="work-elem">
+            <h3>MLH, U.S. DoD - Software Engineering Intern</h3>
+            <p class="time-frame">October - December 2020</p>
+            <ul class="desc-list">
+              <li>Created a POC for a web application to streamline, track, and secure the multi-stage process of signing DD2875 System Authorization Forms</li>
+              <li>Architected a RESTful API and a PostgreSQL Database Schema to ensure lean and efficient data movement and storage</li>
+              <li>Implemented the backend server on top of Node.js and Express.js</li>
+              <li>Worked and planned in weekly AGILE sprints, meeting frequently with my team and provided regular updates and design proposals to our sponsor</li>
+            </ul>
+          </div>
+          <div class="work-elem">
+            <h3>Tesseract Interactive - Game Development Workshop Volunteer</h3>
+            <p class="time-frame">August 2020</p>
+            <ul class="desc-list">
+              <li>Took part in running a two day workshop where that taught a group of High School students the basic concepts of designing and developing games</li>
+              <li>Taught Unity Fundamentals in a live class enviroment, including project setup, scene building, scripting, and the Physics API</li>
+              <li>Presented a Crash Course in basic programming with C# covering classes, methods, loops, mutability, and basic design patterns like the Singleton</li>
+              <li>Took questions and feedback in a live Q&A after the workshop from peers and students to provide clarifications and improve my teaching skills</li>
+            </ul>
+          </div>
+          <div class="work-elem">
+            <h3>KPX Engineering - Assistant Data Analyst</h3>
+            <p class="time-frame">June - September 2019</p>
+            <ul class="desc-list">
+              <li>Contracted to assist in a research project pertaining to evaluating current staffing levels and speed of service for Taco Bell International</li>
+              <li>Leveraged Python and openpyxl to compound and analyze large excel sheets containing rates of food production</li>
+              <li>Drafted and Presented reports directly to the Director of Global Operations</li>
+              <li>Found out the Mexican Pizza, Fiery Taco, and Shredded Chicken were leaving the menu months before it was announced</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <span id="sidebar-toggle" class="sidebar-toggle material-symbols-outlined" onclick="toggle_sidebar()">menu</span>
+    <aside class="sidebar hide-block">
+      <label for="title" id="sidebar-title" style="transform: translateY(325%);">Links:</label>
+      <hr style="transform: translateY(5505%);">
+      <label for="email" style="transform: translateY(450%);"><a href="mailto:joebertolini2013@gmail.com">Email Me</a></label>
+      <label for="github" style="transform: translateY(550%);"><a href="https://github.com/JosefBertolini">GitHub</a></label>
+      <label for="itch" style="transform: translateY(650%);"><a href="https://joebertolini.itch.io/">Itch.io</a></label>
+      <label for="linkedin" style="transform: translateY(750%);"><a href="https://www.linkedin.com/in/josef-bertolini/">LinkedIn</a></label>
+      <button class="tooltip" onclick="copy_discord()" onmouseover="mouse_enter_discord_button()" onmouseout="mouse_exit_discord_button()">My Discord
+        <span class="tooltiptext" id="discord_tooltip">Copy to Clipboard</span>
+      </button>
+    </aside>
+  </div>
 </body>
+
 </html>

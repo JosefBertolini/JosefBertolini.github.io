@@ -1,165 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/generic_styling.css">
-    <link rel="stylesheet" href="/CSS/project_page_styling.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="icon" href="/resources/images/favicon.ico">
-    <script type="text/javascript" src="/JS/script.js"></script>
-    <title>Joe Bertolini | Projects</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/generic_styling.css">
+  <link rel="stylesheet" href="CSS/project_page_styling.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+  <link rel="icon" href="resources/images/favicon.ico">
+  <script type="text/javascript" src="JS/script.js"></script>
+  <title>Joe Bertolini | Projects</title>
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <h1>My Projects</h1>
-            <nav>
-                <label for="home-button"><a href="/index.html">Home</a></label>
-                <label for="projects-button"><a href="/projects.html">Projects</a></label>
-                <label for="devlogs-button"><a href="/devlogs_splash.html">DevLogs</a></label>
-                <label for="resume-button"><a href="/resources/files/resume.pdf" target="_blank">Resume</a></label>
-            </nav>
-            <hr>
-        </header>
-        <main class="content" style="max-width: 2000px;">
-            <h2 class="section-title">Favorite Projects</h2>
-            <div class="wrap-display">
-                <div class="project-card basic-border">
-                    <h2>Peter Chat</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/peter.png" alt="Logo">
-                            <p><a href="mailto:joebertolini2013@gmail.com">Email to request to view source</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>Wrote the server-side code for a chatroom application in C. I used POSIX threads to increase the performance of the server, and implemented a thread-safe, generic HashMap, HashSet, and Vector data to use within the server code.</p>
-                            <p>This was one of my favorite projects to work on, and it solidified my desire to pursue systems programming as a potential career path. The finished product (still had a few bugs but) was able to support an arbitrary number of concurrent users and rooms, and the source clocked in at just over 2500 lines of code.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>Season's Beatings</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/seasons_beatings.png" alt="Logo">
-                            <p><a href="https://gabeeck.itch.io/seasons-beatings" target="_blank">Link to Download</a></p>
-                            <p><a href="https://github.com/gabeeck/SeasonsBeatings" target="_blank">Link to Source</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>This is a top down beat 'em game made in Unity. Responsible for implement the combat and weapon systems. I designed the weapons system to be scalable in the sense of adding/removing/editing weapons would be <em>frictionless</em> and the combat to be fast and fluid.</p>
-                            <p>I am very proud of the project given how polished most the features are and how fun the game is to play, especially given the amount of time dedicated to the project (~2 weekends). I learned a lot from this project, not only about designing games and program structure, but about working in teams as well (which was more valuable at the time). The game is playable on Windows 10 (maybe 7 & 8, it's not tested) so check it out if you have some time to kill.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>Crux Compiler</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/llvm.png" alt="Logo" style="max-width: 100%; transform: translate(-15px, 55px);">
-                            <br><br><br><br><br>
-                            <p style="font-weight: bold;">Source has been lost &#128533</p>
-                        </div>
-                        <div class="card-right">
-                            <p>I wrote an LLVM-based compiler for a simple language called <em>Crux</em>. The compiler is written in Java and uses real world tools like ANTLR4. The project covers all aspects of a compiler: grammar, the AST, static type checking, creating the IR, and generating x86_64 assembly code. The language itself supports function definition, recursion, control flow structures, and strong typing with static scoping with variable shadowing.</p>
-                            <p>This was the most difficult project I have ever worked on at that point in time, but I loved every bit of it. It challenged all of the concepts of programming that I knew as well as introducing new concepts, like <em>Reflection</em> and using an IDE debugger. I kinda shot myself in the foot because this was a pair project that I chose to do by myself, but I enjoyed the challenge that came of it, so I didn't mind.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <br>
-            <h2 class="section-title">Other Projects</h2>
-            <div class="wrap-display">
-                <div class="project-card basic-border">
-                    <h2>Vocab Tiles</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/vocab tiles.png" alt="Logo">
-                            <p><a href="https://github.com/NoahCardoza/VocabTiles" target="_blank">Link to Source</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>This is a browser based vocab word matching game for ESL students. The site was made for an orientation/team building hackathon for my internship. This was my first real foray into web development, it was a rough start because I was getting familiar with all sorts of new libraries and frameworks, but it was am enjoyable experience overall.</p>
-                            <p>The site is made with a Vue, Node, Express, PostgreSQL stack, and my main responsibility was the backend. I incorporated <a href="https://joi.dev" target="_blank">joi.dev</a> for JSON schema validation to protect the integrity of the database</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>Macro-Nutrient Tracker</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/macrotracker-image.png" alt="Logo">
-                            <br>
-                            <br>
-                            <p><a href="https://github.com/JosefBertolini/Nutrition-Tracker" target="_blank">Link to Source</a></p>
-                            <p><a href="resources/files/Nutrition Tracker Release 1.0.zip" target="_blank">Click to Download</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>Built a WPF desktop application to track daily macro nutrients and weight change for multiple users. Each user has a custom profile, that can be edited at any time, that contains their nutrient goals and weight stats. Users can view their weight change as well as the past 7 days of nutrient tracking.</p>
-                            <p>A simple application, but one that was good/important for me and had a more practical application. It was my first foray into .NET, XAML, and C# outside of Unity. It was a fairly good learning experience, but it made me miss as standalone styling language I could style it (like CSS to HTML) and make it more reactive.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>Raging Rocks</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/raging_rocks.png" alt="Logo">
-                            <p><a href="https://github.com/KrispyKarim517/RagingRocks" target="_blank">Link to Source</a></p>
-                            <p><a href="https://krispykarim517.itch.io/capstone-project" target="_blank">Click to Play (W.I.P.)</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>This is a Unity project where players launch rocks and attain power ups to destroy forts. I was responsible for most of the gameplay programming as well as designing and balancing the power ups.</p>
-                            <p>This game essentially went through a development hell, the type of game changed a few times, and the target platform changed twice, and the COVID-19 pandemic absolutely killed momentum, however it was still fun to make and work on and I like where the final product ended up. The game runs in the browser so give it play when you have some spare time.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>Parallel Rasterizer</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/rasterization.gif" alt="Logo" style="width: 110%;transform: translate(-25px, 55px);">
-                            <br><br><br><br>
-                            <p><a href="mailto:joebertolini2013@gmail.com">Cannot release source</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>Created a Rasterizer in C++ that can trace primitive shapes in a given scene and outputs a PGM image. The program uses a custom file type to create the scene, where you can define the viewport size and location, light point, and location of shapes. I created this project using OOP principles with some new (at the time) features of C++17. The programing runs with an arbitrary amount of threads without encountering any data races or deadlocks and is about 70% faster on average than the single threaded version.</p>
-                            <p>This was a fun project that I made over the course of a couple days. Ironically, the hardest parts of the project was reading the physics equations correctly. This was the first time I wrote a multi-threaded program, and it was very intimidating, but working on the project, as well as some other ones after, really demystified concurrency and helped turn it into a valuable skill.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card basic-border">
-                    <h2>Programming Style Problems</h2>
-                    <div class="box">
-                        <div class="card-left">
-                            <img src="/resources/images/programming_styles_cover.jpg" alt="Logo" style="transform: translateX(-15px);">
-                            <p><a href="https://repl.it/@JosefBertolini/Inf102#README.md" target="_blank">Link to Source</a></p>
-                        </div>
-                        <div class="card-right">
-                            <p>During my 3rd year at UCI I took a class where we went over many different styles and features of different programming languages and patterns. To practice with languages and styles, I re-implemented most of the Python 3 examples in <a href="https://www.oreilly.com/library/view/exercises-in-programming/9781482227376/" target="_blank"><em><u>the pictured textbook</u></em></a> in C++ and Java, usually about 2 examples each week. Each week has its own folder in the repl directory.</p>
-                            <p>I listed this here for 2 reasons:</p>
-                            <ul>
-                                <li>1) I challenged myself to take a unique (potentially impractical) solution each time I worked on a new example.</li> 
-                                <br>
-                                <li>2) In each example, I had to use a lot of neat tricks to get around C++ static typing (including the first time I ever used <code>constexpr</code>). I think it is a good sign of my ingenuity as programmer and my ability to solve unusual problems.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <span id="sidebar-toggle" class="sidebar-toggle material-symbols-outlined" onclick="toggle_sidebar()">menu</span>
-        <aside class="sidebar hide-block">
-            <label for="title" id="sidebar-title" style="transform: translateY(325%);">Links:</label>
-            <hr style="transform: translateY(5505%);">
-            <label for="email" style="transform: translateY(450%);"><a href="mailto:joebertolini2013@gmail.com">Email Me</a></label>
-            <label for="github" style="transform: translateY(550%);"><a href="https://github.com/JosefBertolini">GitHub</a></label>
-            <label for="itch" style="transform: translateY(650%);"><a href="https://joebertolini.itch.io/">Itch.io</a></label>
-            <label for="linkedin" style="transform: translateY(750%);"><a href="https://www.linkedin.com/in/josef-bertolini/">LinkedIn</a></label>
-            <button class="tooltip" onclick="copy_discord()" onmouseover="mouse_enter_discord_button()" onmouseout="mouse_exit_discord_button()">My Discord
-                <span class="tooltiptext" id="discord_tooltip">Copy to Clipboard</span>
-            </button>
-        </aside>
+  <div class="container">
+  <header class="header">
+    <h1>My Projects</h1>
+    <nav>
+      <label for="home-button"><a href="index.html">Home</a></label>
+      <label for="projects-button"><a href="projects.html">Projects</a></label>
+      <label for="devlogs-button"><a href="devlogs_splash.html">DevLogs</a></label>
+      <label for="resume-button"><a href="resources/files/resume.pdf" target="_blank">Resume</a></label>
+    </nav>
+    <hr>
+  </header>
+  <main class="content" style="max-width: 2000px;">
+    <h2 class="section-title">Favorite Projects</h2>
+    <div class="wrap-display">
+      <div class="project-card basic-border">
+        <h2>Peter Chat</h2>
+        <div class="box">
+          <div class="card-left">
+            <img src="resources/images/peter.png" alt="Logo">
+            <p><a href="mailto:joebertolini2013@gmail.com">Email to request to view source</a></p>
+          </div>
+          <div class="card-right">
+            <p>
+              Wrote the server-side code for a chatroom application in C. I used POSIX threads to increase the performance of the server, and implemented a thread-safe, generic 
+              HashMap, HashSet, and Vector data to use within the server code.
+            </p>
+            <p>
+                This was one of my favorite projects to work on, and it solidified my desire to pursue systems programming as a potential career path. The finished product (still 
+                had a few bugs but) was able to support an arbitrary number of concurrent users and rooms, and the source clocked in at just over 2500 lines of code.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="project-card basic-border">
+        <h2>Season's Beatings</h2>
+        <div class="box">
+          <div class="card-left">
+            <img src="resources/images/seasons_beatings.png" alt="Logo">
+            <p><a href="https://gabeeck.itch.io/seasons-beatings" target="_blank">Link to Download</a></p>
+            <p><a href="https://github.com/gabeeck/SeasonsBeatings" target="_blank">Link to Source</a></p>
+          </div>
+          <div class="card-right">
+            <p>
+              This is a top down beat 'em game made in Unity. Responsible for implement the combat and weapon systems. I designed the weapons system to be scalable in the sense of 
+              adding/removing/editing weapons would be <em>frictionless</em> and the combat to be fast and fluid.
+            </p>
+            <p>
+              I am very proud of the project given how polished most the features are and how fun the game is to play, especially given the amount of time dedicated to the project 
+              (~2 weekends). I learned a lot from this project, not only about designing games and program structure, but about working in teams as well (which was more valuable at
+              the time). The game is playable on Windows 10 (maybe 7 & 8, it's not tested) so check it out if you have some time to kill.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="project-card basic-border">
+        <h2>Crux Compiler</h2>
+        <div class="box">
+          <div class="card-left">
+            <img src="resources/images/llvm.png" alt="Logo" style="max-width: 100%; transform: translate(-15px, 55px);">
+            <br><br><br><br><br>
+            <p style="font-weight: bold;">Source has been lost &#128533</p>
+          </div>
+          <div class="card-right">
+            <p>
+              I wrote an LLVM-based compiler for a simple language called <em>Crux</em>. The compiler is written in Java and uses real world tools like ANTLR4. The project covers
+              all aspects of a compiler: grammar, the AST, static type checking, creating the IR, and generating x86_64 assembly code. The language itself supports function 
+              definition, recursion, control flow structures, and strong typing with static scoping with variable shadowing.
+            </p>
+            <p>
+              This was the most difficult project I have ever worked on at that point in time, but I loved every bit of it. It challenged all of the concepts of programming that 
+              I knew as well as introducing new concepts, like <em>Reflection</em> and using an IDE debugger. I kinda shot myself in the foot because this was a pair project that 
+              I chose to do by myself, but I enjoyed the challenge that came of it, so I didn't mind.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+    <br>
+    <br>
+    <h2 class="section-title">Other Projects</h2>
+    <div class="wrap-display">
+      <div class="project-card basic-border">
+        <h2>Vocab Tiles</h2>
+        <div class="box">
+          <div class="card-left">
+            <img src="resources/images/vocab tiles.png" alt="Logo">
+              <p><a href="https://github.com/NoahCardoza/VocabTiles" target="_blank">Link to Source</a></p>
+          </div>
+          <div class="card-right">
+            <p>
+              This is a browser based vocab word matching game for ESL students. The site was made for an orientation/team building hackathon for my internship. This was my first
+              real foray into web development, it was a rough start because I was getting familiar with all sorts of new libraries and frameworks, but it was am enjoyable 
+              experience overall.
+            </p>
+            <p>
+              The site is made with a Vue, Node, Express, PostgreSQL stack, and my main responsibility was the backend. I incorporated 
+              <a href="https://joi.dev" target="_blank">joi.dev</a> for JSON schema validation to protect the integrity of the database
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="project-card basic-border">
+        <h2>Macro-Nutrient Tracker</h2>
+        <div class="box">
+          <div class="card-left">
+            <img src="resources/images/macrotracker-image.png" alt="Logo">
+            <br>
+            <br>
+            <p><a href="https://github.com/JosefBertolini/Nutrition-Tracker" target="_blank">Link to Source</a></p>
+            <p><a href="resources/files/Nutrition Tracker Release 1.0.zip" target="_blank">Click to Download</a></p>
+          </div>
+          <div class="card-right">
+            <p>
+              Built a WPF desktop application to track daily macro nutrients and weight change for multiple users. Each user has a custom profile, that can be edited at any time,
+              that contains their nutrient goals and weight stats. Users can view their weight change as well as the past 7 days of nutrient tracking.
+            </p>
+            <p>
+              A simple application, but one that was good/important for me and had a more practical application. It was my first foray into .NET, XAML, and C# outside of Unity. 
+              It was a fairly good learning experience, but it made me miss as standalone styling language I could style it (like CSS to HTML) and make it more reactive.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="project-card basic-border">
+        <h2>Raging Rocks</h2>
+        <div class="box">
+        <div class="card-left">
+          <img src="resources/images/raging_rocks.png" alt="Logo">
+          <p><a href="https://github.com/KrispyKarim517/RagingRocks" target="_blank">Link to Source</a></p>
+          <p><a href="https://krispykarim517.itch.io/capstone-project" target="_blank">Click to Play (W.I.P.)</a></p>
+        </div>
+        <div class="card-right">
+          <p>
+            This is a Unity project where players launch rocks and attain power ups to destroy forts. I was responsible for most of the gameplay programming as well as designing 
+            and balancing the power ups.
+          </p>
+          <p>
+            This game essentially went through a development hell, the type of game changed a few times, and the target platform changed twice, and the COVID-19 pandemic 
+            absolutely killed momentum, however it was still fun to make and work on and I like where the final product ended up. The game runs in the browser so give it play 
+            when you have some spare time.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="project-card basic-border">
+      <h2>Parallel Rasterizer</h2>
+      <div class="box">
+        <div class="card-left">
+          <img src="resources/images/rasterization.gif" alt="Logo" style="width: 110%;transform: translate(-25px, 55px);">
+            <br><br><br><br>
+          <p><a href="mailto:joebertolini2013@gmail.com">Cannot release source</a></p>
+        </div>
+        <div class="card-right">
+          <p>
+            Created a Rasterizer in C++ that can trace primitive shapes in a given scene and outputs a PGM image. The program uses a custom file type to create the scene, where 
+            you can define the viewport size and location, light point, and location of shapes. I created this project using OOP principles with some new (at the time) features
+            of C++17. The programing runs with an arbitrary amount of threads without encountering any data races or deadlocks and is about 70% faster on average than the single
+            threaded version.
+          </p>
+          <p>
+            This was a fun project that I made over the course of a couple days. Ironically, the hardest parts of the project was reading the physics equations correctly. This 
+            was the first time I wrote a multi-threaded program, and it was very intimidating, but working on the project, as well as some other ones after, really demystified 
+            concurrency and helped turn it into a valuable skill.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="project-card basic-border">
+      <h2>Programming Style Problems</h2>
+      <div class="box">
+        <div class="card-left">
+          <img src="resources/images/programming_styles_cover.jpg" alt="Logo" style="transform: translateX(-15px);">
+          <p><a href="https://repl.it/@JosefBertolini/Inf102#README.md" target="_blank">Link to Source</a></p>
+        </div>
+        <div class="card-right">
+            <p>
+              During my 3rd year at UCI I took a class where we went over many different styles and features of different programming languages and patterns. To practice with 
+              languages and styles, I re-implemented most of the Python 3 examples in 
+              <a href="https://www.oreilly.com/library/view/exercises-in-programming/9781482227376/" target="_blank"><em><u>the pictured textbook</u></em></a> in C++ and Java,
+              usually about 2 examples each week. Each week has its own folder in the repl directory.
+            </p>
+            <p>I listed this here for 2 reasons:</p>
+            <ul>
+              <li>1) I challenged myself to take a unique (potentially impractical) solution each time I worked on a new example.</li> 
+              <br>
+              <li>2) In each example, I had to use a lot of neat tricks to get around C++ static typing (including the first time I ever used <code>constexpr</code>). I think 
+              it is a good sign of my ingenuity as programmer and my ability to solve unusual problems.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <span id="sidebar-toggle" class="sidebar-toggle material-symbols-outlined" onclick="toggle_sidebar()">menu</span>
+    <aside class="sidebar hide-block">
+      <label for="title" id="sidebar-title" style="transform: translateY(325%);">Links:</label>
+      <hr style="transform: translateY(5505%);">
+      <label for="email" style="transform: translateY(450%);"><a href="mailto:joebertolini2013@gmail.com">Email Me</a></label>
+      <label for="github" style="transform: translateY(550%);"><a href="https://github.com/JosefBertolini">GitHub</a></label>
+      <label for="itch" style="transform: translateY(650%);"><a href="https://joebertolini.itch.io/">Itch.io</a></label>
+      <label for="linkedin" style="transform: translateY(750%);"><a href="https://www.linkedin.com/in/josef-bertolini/">LinkedIn</a></label>
+      <button class="tooltip" onclick="copy_discord()" onmouseover="mouse_enter_discord_button()" onmouseout="mouse_exit_discord_button()">My Discord
+          <span class="tooltiptext" id="discord_tooltip">Copy to Clipboard</span>
+                </button>
+    </aside>
+  </div>
 </body>
 </html>
